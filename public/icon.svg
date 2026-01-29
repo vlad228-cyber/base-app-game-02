@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="30%" cy="20%" r="75%">
+      <stop offset="0%" stop-color="#1d2a3a"/>
+      <stop offset="55%" stop-color="#1b1627"/>
+      <stop offset="100%" stop-color="#0a0b10"/>
+    </radialGradient>
+    <linearGradient id="pulse" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5ef7ff"/>
+      <stop offset="55%" stop-color="#b56bff"/>
+      <stop offset="100%" stop-color="#ff9a6b"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="132" fill="none" stroke="url(#pulse)" stroke-width="18" filter="url(#glow)"/>
+  <circle cx="256" cy="256" r="86" fill="none" stroke="#6dd7ff" stroke-width="6" opacity="0.55"/>
+  <path d="M176 276h44l18-34 26 66 26-52h46" fill="none" stroke="url(#pulse)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  <circle cx="176" cy="276" r="10" fill="#5ef7ff"/>
+  <circle cx="238" cy="242" r="10" fill="#b56bff"/>
+  <circle cx="264" cy="308" r="10" fill="#ff7ad9"/>
+  <circle cx="316" cy="256" r="10" fill="#ffc857"/>
+</svg>

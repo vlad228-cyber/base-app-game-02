@@ -26,19 +26,19 @@ export const minikitConfig = {
     description:
       "Hit the beats, keep the streak alive, and chase your best score in this neon rhythm run.",
     screenshotUrls: [`${ROOT_URL}/screenshot.png`],
-    iconUrl: `${ROOT_URL}/icon.png`,
+    iconUrl: `${ROOT_URL}/icon.svg`,
     splashImageUrl: `${ROOT_URL}/splash.png`,
     splashBackgroundColor: "#000000",
     homeUrl: ROOT_URL,
     webhookUrl: `${ROOT_URL}/api/webhook`,
     primaryCategory: "games",
     tags: ["rhythm", "arcade", "tap"],
-    heroImageUrl: `${ROOT_URL}/hero.png`,
+    heroImageUrl: `${ROOT_URL}/hero.svg`,
     tagline: "Tap on beat. Go neon.",
     ogTitle: "Glow Rush",
     ogDescription:
       "A neon rhythm sprint where timing is everything. Tap the beat and climb the combo.",
-    ogImageUrl: `${ROOT_URL}/hero.png`,
+    ogImageUrl: `${ROOT_URL}/hero.svg`,
     noindex: false,
   },
 } as const;

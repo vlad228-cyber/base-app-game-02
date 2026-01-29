@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0b10"/>
+      <stop offset="45%" stop-color="#162130"/>
+      <stop offset="100%" stop-color="#34183f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="70%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#5ef7ff" stop-opacity="0.35"/>
+      <stop offset="55%" stop-color="#b56bff" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#0a0b10" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pulse" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5ef7ff"/>
+      <stop offset="55%" stop-color="#b56bff"/>
+      <stop offset="100%" stop-color="#ff9a6b"/>
+    </linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="860" cy="140" r="220" fill="url(#glow)" filter="url(#soft)"/>
+  <text x="110" y="230" fill="#f5f6ff" font-size="84" font-family="Inter, Arial, sans-serif" font-weight="700">Glow Rush</text>
+  <text x="110" y="290" fill="#b9c2ff" font-size="24" font-family="Inter, Arial, sans-serif">Neon rhythm sprint</text>
+  <rect x="110" y="330" width="620" height="10" rx="5" fill="#1b2333"/>
+  <rect x="110" y="330" width="420" height="10" rx="5" fill="url(#pulse)"/>
+  <g transform="translate(110 380)">
+    <rect x="0" y="0" width="140" height="140" rx="22" fill="#111522" stroke="#1d2a3a"/>
+    <rect x="160" y="0" width="140" height="140" rx="22" fill="#111522" stroke="#1d2a3a"/>
+    <rect x="320" y="0" width="140" height="140" rx="22" fill="#111522" stroke="#1d2a3a"/>
+    <rect x="480" y="0" width="140" height="140" rx="22" fill="#111522" stroke="#1d2a3a"/>
+    <circle cx="70" cy="40" r="16" fill="#5ef7ff"/>
+    <circle cx="230" cy="70" r="16" fill="#8b6cff"/>
+    <circle cx="390" cy="100" r="16" fill="#ff7ad9"/>
+    <circle cx="550" cy="58" r="16" fill="#ffc857"/>
+    <rect x="30" y="108" width="80" height="6" rx="3" fill="#f5f6ff" opacity="0.6"/>
+    <rect x="190" y="108" width="80" height="6" rx="3" fill="#f5f6ff" opacity="0.6"/>
+    <rect x="350" y="108" width="80" height="6" rx="3" fill="#f5f6ff" opacity="0.6"/>
+    <rect x="510" y="108" width="80" height="6" rx="3" fill="#f5f6ff" opacity="0.6"/>
+  </g>
+  <text x="110" y="570" fill="#7dffcb" font-size="20" font-family="Inter, Arial, sans-serif">Tap on beat. Build streaks. Go neon.</text>
+</svg>
