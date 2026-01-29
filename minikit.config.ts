@@ -39,5 +39,6 @@ export const minikitConfig = {
     ogDescription:
       "A neon rhythm sprint where timing is everything. Tap the beat and climb the combo.",
     ogImageUrl: `${ROOT_URL}/hero.png`,
+    noindex: false,
   },
 } as const;
