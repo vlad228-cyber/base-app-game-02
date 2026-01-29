@@ -34,7 +34,7 @@ export const minikitConfig = {
     primaryCategory: "games",
     tags: ["rhythm", "arcade", "tap"],
     heroImageUrl: `${ROOT_URL}/hero.png`,
-    tagline: "Tap on beat. Build streaks. Go neon.",
+    tagline: "Tap on beat. Go neon.",
     ogTitle: "Glow Rush",
     ogDescription:
       "A neon rhythm sprint where timing is everything. Tap the beat and climb the combo.",
